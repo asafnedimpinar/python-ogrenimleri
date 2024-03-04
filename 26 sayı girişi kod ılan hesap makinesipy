@@ -1,0 +1,32 @@
+# coding=utf-8
+
+"""
+    Girdiğimiz sayıların yapacağımız işleme göre
+    bize sonucunu gösterecek bir uygulama
+"""
+
+# Toplama
+
+print("toplam = ", 3 + 4)  # 3 + 4 = 7
+
+# Çıkarma
+
+print("Fark = ", 12 - 5)  # 12 - 5 = 7
+
+# Çarpma
+
+print("Çarpım = ", 3 * 9)  # 3 * 9 = 27
+
+# Bölme
+
+print("Bölüm = ", 34 / 17)  # 34 / 17 = 2
+
+
+"""
+Output:
+
+toplam =  7 
+Fark =  7
+Çarpım =  27
+Bölüm =  2
+ """
