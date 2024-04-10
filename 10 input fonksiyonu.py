@@ -1,11 +1,16 @@
-# input sadece string  ıfade alır int ıcıne yazarak ınt degısken alırız
-print(""" hesap makinesi """)
-sayi1=float(input("birini sayıyı girininiz :"))   # kullanıcıdan 1. degişkeni aldırdı
-sayi2=float(input("ikinci sayıyı giriniz :"))     # kullanıcıdan 2. degişkeni aldırdı
+# Kullanıcıya hesap makinesi olduğunu belirten mesajı ekrana yazdırma
+print(""" Hesap Makinesi """)
 
+# Kullanıcıdan ilk sayıyı alarak float tipine dönüştürme
+sayi1 = float(input("Birinci sayıyı giriniz:"))
+
+# Kullanıcıdan ikinci sayıyı alarak float tipine dönüştürme
+sayi2 = float(input("İkinci sayıyı giriniz:"))
+
+# Toplam, fark, bölüm ve çarpım işlemlerini ekrana yazdırma
 print("""
-toplam = {}            # toplama işlemini yaptırdı 
-fark = {}              # cıkarma  işlemini yaptırdı
-bolum ={}              # bolme  işlemini yaptırdı
-carpım ={}
-""".format(sayi1+sayi2,sayi1-sayi2,sayi1/sayi2,sayi1*sayi2))
+Toplam = {}            # İki sayının toplamını yazdırma
+Fark = {}              # İki sayının farkını yazdırma
+Bölüm = {}             # İki sayının bölümünü yazdırma
+Çarpım = {}            # İki sayının çarpımını yazdırma
+""".format(sayi1 + sayi2, sayi1 - sayi2, sayi1 / sayi2, sayi1 * sayi2))
