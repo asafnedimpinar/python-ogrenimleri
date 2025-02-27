@@ -4,8 +4,8 @@ import os
 
 def duzenle(): 
     klasor = input("Düzenlenecek Klasör : ")
-    dosyalar = []  # dosyalar depolanacak 
-    uzantilar =[]   # uzantılar depolanacak 
+    dosyalar = []
+    uzantilar =[]  
     def list_dir() :
         for dosya in os.listdir(klasor):
             if os.path.isdir(os.path.join(klasor,dosya)):   # dosya klasor mu sorguladı
