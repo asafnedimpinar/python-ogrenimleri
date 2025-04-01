@@ -7,7 +7,7 @@ for z in range(40,900): # 40 tan 900 e  kadar olan sayıları 1 1 yazdırır
     print(z)
  """
 
-def asal_mı(sayi):    # gırılen sayı aralıgındakı asal sayıları bulur
+def asal_mı(sayi):    
  for i in range(2,sayi):
    if sayi %i == 0 :
      return False 
