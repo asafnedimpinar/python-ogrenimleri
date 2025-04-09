@@ -13,5 +13,4 @@ sifre = input("Şifreyi giriniz: ")
 # Eğer kullanıcı adı ve şifre listedeki bilgilerle uyuşuyorsa 'True', aksi takdirde 'False' değeri atanır
 a = kullanıcıbilgileri[0] == kadi and kullanıcıbilgileri[1] == sifre
 
-# Sonucu ekrana yazdırma
 print(a)
