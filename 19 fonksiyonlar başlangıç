@@ -15,12 +15,12 @@ def ebob(a,b):
 	if fark == 0:
 
 		ebob = a
-	# Eğer fark sıfırsa ebob sayılardan herhangi birine eşit olur.
+	# Eğer fark sıfırsa ebob sayılardan herhangi birine eşit olur
 	
 	else:
-		for i in range(1,fark+1):  # Sıfırdan farka kadar olan sayılarda gezindik.
-			if a % i == 0 and b % i == 0:  # Eğer i, a ve b yi tam bölüyorsa if bloğuna girdi.
-				ebob = i  # ebob'un değeri a ve b yi kalansız bölebilen en son i değeri oldu. Yani bölenlerin en büyüğü.
+		for i in range(1,fark+1):  # Sıfırdan farka kadar olan sayılarda gezindik
+			if a % i == 0 and b % i == 0:  # Eğer i, a ve b yi tam bölüyorsa if bloğuna girdi
+				ebob = i  # ebob'un değeri a ve b yi kalansız bölebilen en son i değeri oldu
 
 	print(ebob)
 	
