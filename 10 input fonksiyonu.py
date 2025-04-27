@@ -1,4 +1,4 @@
-# Kullanıcıya hesap makinesi olduğunu belirten mesajı ekrana yazdırma
+
 print(""" Hesap Makinesi """)
 
 # Kullanıcıdan ilk sayıyı alarak float tipine dönüştürme
